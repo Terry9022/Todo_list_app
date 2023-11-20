@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <main>
+      <section class="newItemEntry">
+        <form id="itemEntryForm">
+          <label for="newItem"> Enter a new to do item </label>
+          <input
+            id="newItem"
+            type="text"
+            size="40"
+            autocomplete="off"
+            placeholder="Add item"
+            tabindex="0"
+          />
+          <button
+            id="addItem"
+            class="button"
+            title="Add new item"
+            aria-label="Add item to list"
+            tabindex="0"
+          >
+            +
+          </button>
+        </form>
+      </section>
+      <section class="listContainer"></section>
+    </main>
+  </body>
+</html>
